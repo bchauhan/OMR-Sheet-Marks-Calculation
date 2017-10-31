@@ -1,0 +1,41 @@
+S.I,CORRECT,YOU ANSWER,ANSWER,TOPIC,LEVEl
+1,B,B,Correct,"Geology , Interpretation of Information",2
+2,J,J,Correct,"Geology , Interpretation of Information",3
+3,D,D,Correct,"Geology , Interpretation of experimental",2
+4,J,J,Correct,"Geology , Interpretation of experimental",4
+5,B,C,Incorrect,"Geology , Graph Reading , Assess Information",3
+6,G,G,Correct,"Geology , Interpretation of experimental",4
+7,D,A,Incorrect,"Biology, Graph Reading , Assess Information",1
+8,F,F,Correct,"Biology, Graph Reading , Draw conclusion",2
+9,C,C,Correct,"Biology, Graph Reading , Assess Information",2
+10,J,J,Correct,"Biology, Interpretation of experimental results",4
+11,C,C,Correct,"Biology, Interpretation of Information",4
+12,F,F,Correct,"Chemistry , Graph Reading , Assess",1
+13,A,A,Correct,"Chemistry , Interpretation of experimental",3
+14,J,J,Correct,"Chemistry , Interpretation of experimental",3
+15,A,A,Correct,"Chemistry , Interpretation of experimental",4
+16,H,H,Correct,"Chemistry , Interpretation of experimental",4
+17,D,D,Correct,"Chemistry , Graph Reading , Derive New",5
+18,J,J,Correct,"Meteorology , Interpretation of Information",2
+19,B,B,Correct,"Meteorology , Interpretation of Information",3
+20,F,F,Correct,"Meteorology , Interpretation of Information",3
+21,C,C,Correct,"Meteorology , Interpretation of Information",4
+22,G,G,Correct,"Meteorology , Interpretation of Information",5
+23,A,A,Correct,"Biology, Interpretation of Information",1
+24,J,H,Incorrect,"Biology, Graph Reading , Make prediction",2
+25,B,C,Incorrect,"Biology, Interpretation of Information",3
+26,G,G,Correct,"Biology, Interpretation of Information",4
+27,C,B,Incorrect,"Biology, Interpretation of Information",5
+28,H,G,Incorrect,"Physics , Understanding , Assess Information",2
+29,B,B,Correct,"Physics , Comparison of Alternative viewpoints",3
+30,F,G,Incorrect,"Physics , Comparison of Alternative viewpoints",3
+31,C,D,Incorrect,"Physics , Analysis , Develop Hypothesis",3
+32,H,G,Incorrect,"Physics , Analysis , Develop Hypothesis",4
+33,A,A,Correct,"Physics , Understanding , Draw conclusion",4
+34,F,F,Correct,"Physics , Analysis , Develop Hypothesis",5
+35,C,B,Incorrect,"Chemistry , Interpretation of experimental",1
+36,J,H,Incorrect,"Chemistry , Interpretation of Information",2
+37,B,B,Correct,"Chemistry , Interpretation of experimental",2
+38,J,H,Incorrect,"Chemistry , Design of experiments , Assess",3
+39,A,,Omitted,"Chemistry , Interpretation of experimental",4
+40,F,,Omitted,"Chemistry , Interpretation of Information",5

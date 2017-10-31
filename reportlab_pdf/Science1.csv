@@ -1,0 +1,22 @@
+Question,Correct Answer,Your Answer,ANSWER,Topic,LEVEl
+Section 2,,,,,
+21,C,C,Correct,"Meteorology , Interpretation of Information",4
+22,G,G,Correct,"Meteorology , Interpretation of Information",5
+23,A,A,Correct,"Biology, Interpretation of Information",1
+24,J,H,Incorrect,"Biology, Graph Reading , Make prediction",2
+25,B,C,Incorrect,"Biology, Interpretation of Information",3
+26,G,G,Correct,"Biology, Interpretation of Information",4
+27,C,B,Incorrect,"Biology, Interpretation of Information",5
+28,H,G,Incorrect,"Physics , Understanding , Assess Information",2
+29,B,B,Correct,"Physics , Comparison of Alternative viewpoints",3
+30,F,G,Incorrect,"Physics , Comparison of Alternative viewpoints",3
+31,C,D,Incorrect,"Physics , Analysis , Develop Hypothesis",3
+32,H,G,Incorrect,"Physics , Analysis , Develop Hypothesis",4
+33,A,A,Correct,"Physics , Understanding , Draw conclusion",4
+34,F,F,Correct,"Physics , Analysis , Develop Hypothesis",5
+35,C,B,Incorrect,"Chemistry , Interpretation of experimental",1
+36,J,H,Incorrect,"Chemistry , Interpretation of Information",2
+37,B,B,Correct,"Chemistry , Interpretation of experimental",2
+38,J,H,Incorrect,"Chemistry , Design of experiments , Assess",3
+39,A,,Omitted,"Chemistry , Interpretation of experimental",4
+40,F,,Omitted,"Chemistry , Interpretation of Information",5
