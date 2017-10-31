@@ -1,0 +1,21 @@
+Question,Correct,Your Answer,Result,Topic,Difficulty
+1,0,3,Incorrect,"Geology , Interpretation of Information",2
+2,1,0,Incorrect,"Geology , Interpretation of Information",3
+3,1,1,Correct,"Geology , Interpretation of experimental",2
+4,2,2,Correct,"Geology , Interpretation of experimental",4
+5,3,3,Correct,"Geology , Graph Reading , Assess Information",3
+6,3,3,Correct,"Geology , Interpretation of experimental",4
+7,2,3,Incorrect,"Biology, Graph Reading , Assess Information",1
+8,2,0,Incorrect,"Biology, Graph Reading , Draw conclusion",2
+9,2,0,Incorrect,"Biology, Graph Reading , Assess Information",2
+10,1,2,Incorrect,"Biology, Interpretation of experimental results",4
+11,2,2,Correct,"Biology, Interpretation of Information",4
+12,3,3,Correct,"Chemistry , Graph Reading , Assess",1
+13,2,0,Incorrect,"Chemistry , Interpretation of experimental",3
+14,2,3,Incorrect,"Chemistry , Interpretation of experimental",3
+15,3,2,Incorrect,"Chemistry , Interpretation of experimental",4
+16,2,2,Correct,"Chemistry , Interpretation of experimental",4
+17,0,2,Incorrect,"Chemistry , Graph Reading , Derive New",5
+18,1,1,Correct,"Meteorology , Interpretation of Information",2
+19,3,1,Incorrect,"Meteorology , Interpretation of Information",3
+20,2,3,Incorrect,"Meteorology , Interpretation of Information",3

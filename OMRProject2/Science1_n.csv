@@ -1,0 +1,21 @@
+Question,Correct,Your Answer,Result,Topic,Difficulty
+21,3,0,Incorrect,"Meteorology , Interpretation of Information",4
+22,1,1,Correct,"Meteorology , Interpretation of Information",5
+23,2,1,Incorrect,"Biology, Interpretation of Information",1
+24,3,0,Incorrect,"Biology, Graph Reading , Make prediction",2
+25,3,2,Incorrect,"Biology, Interpretation of Information",3
+26,2,1,Incorrect,"Biology, Interpretation of Information",4
+27,1,3,Incorrect,"Biology, Interpretation of Information",5
+28,2,1,Incorrect,"Physics , Understanding , Assess Information",2
+29,3,2,Incorrect,"Physics , Comparison of Alternative viewpoints",3
+30,3,2,Incorrect,"Physics , Comparison of Alternative viewpoints",3
+31,1,0,Incorrect,"Physics , Analysis , Develop Hypothesis",3
+32,3,-1,Omitted,"Physics , Analysis , Develop Hypothesis",4
+33,1,-1,Omitted,"Physics , Understanding , Draw conclusion",4
+34,2,2,Correct,"Physics , Analysis , Develop Hypothesis",5
+35,2,0,Incorrect,"Chemistry , Interpretation of experimental",1
+36,3,3,Correct,"Chemistry , Interpretation of Information",2
+37,0,2,Incorrect,"Chemistry , Interpretation of experimental",2
+38,3,1,Incorrect,"Chemistry , Design of experiments , Assess",3
+39,1,0,Incorrect,"Chemistry , Interpretation of experimental",4
+40,3,1,Incorrect,"Chemistry , Interpretation of Information",5
