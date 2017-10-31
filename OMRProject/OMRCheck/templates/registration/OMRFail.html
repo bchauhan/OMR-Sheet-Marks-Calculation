@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Registration Successful{% endblock %}
+{% block head %}
+    Please provide correct student's details
+{% endblock %}
+{% block content %}
+    Chosen Image is not a valid OMR sheet. Please choose a valid OMR sheet.
+<a href="omrSubmit">Back</a>
+</br>
+<a href="{% url 'home' %}">Home </a>
+{% endblock %}

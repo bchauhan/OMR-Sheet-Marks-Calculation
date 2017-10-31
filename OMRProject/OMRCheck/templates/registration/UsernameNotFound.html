@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Registration Successful{% endblock %}
+{% block head %}
+Please provide correct student's details
+{% endblock %}
+{% block content %}
+   Username with provided information does not exist.
+
+<a href="omrSubmit">Back</a>
+</br>
+<a href="{% url 'home' %}">Home </a>
+{% endblock %}
