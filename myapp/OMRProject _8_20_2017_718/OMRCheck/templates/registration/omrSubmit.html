@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+{% block title %}OMR Submission{% endblock %}
+{% block head %}Submit OMR sheet{% endblock %}
+{% block content %}
+<form method="POST" action="." enctype="multipart/form-data">{% csrf_token %}
+{% if studentForm %}
+	<table><br>
+		<tr><h4>
+			<td>Student Name  </td>
+			<td>:&nbsp;&nbsp;&nbsp;
+				<select  title="Name">
+	         		{% for student in studentForm %}
+  					<option value="Student Name">{{student.Name}}</option>
+         	    		{% endfor %}
+				</select>
+  			</td>
+		</tr>  
+		<tr>
+			<td>Email  </td>
+			<td> :&nbsp;&nbsp;&nbsp;
+				<select title="Email1">
+         				{% for student in studentForm %}
+  						<option value="Student Email" >{{student.Email}}</option>
+         				{% endfor %}
+   				</select>
+  			</td>
+			</tr>  
+			<tr>
+				<td>Roll number </td>
+				<td> :&nbsp;&nbsp;&nbsp;
+					<select  title="RollNo">
+         					{% for student in studentForm %}
+  							<option value="Student Roll number">{{student.RollNo}}</option>
+         					{% endfor %}
+   					</select>
+  				</td>
+			</tr>  
+			<tr>
+				<td>Omrsheet </td>
+				<td> :&nbsp;&nbsp;
+					<table border="0">
+            				{{ omrForm.as_table }}
+        				</table>
+  				</td>
+			</tr> 
+		</table>
+	</h4>
+	{% else %}
+    		<p>No Students are registered.</p>
+
+</br>
+{% endif %}
+<input type="submit" value="Get Marks">
+</form>
+</br></br>
+    <a href="{% url 'home' %}">Home </a>
+{% endblock %}

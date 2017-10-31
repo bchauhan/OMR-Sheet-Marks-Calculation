@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+{% block title %}Student{% endblock %}
+{% block head %}List{% endblock %}
+{% block content %}
+<a href="{% url 'studentRegister' %}">Add new Student </a>
+
+{% if student_list %}
+
+<br>
+    <table border="1">
+        <tr>
+            <td>SN.</td>
+            <td>Roll Number</td>
+            <td>Student Uniuqe ID</td>
+            <td>Name</td>
+            <td>Class</td>
+            <td>Section</td>
+            <td>Phone</td>
+
+        </tr>
+        <ol type="1">
+         {% for student in student_list %}
+            <tr>
+                <td> {{ forloop.counter }}.</td>
+                <td>{{student.RollNo}}</td>
+                <td>{{ student.Username }}</td>
+                <td>{{student.Name}}</td>
+                <td>{{student.Class}}</td>
+                <td>{{student.Email}}</td>
+                <td>{{student.Phone}}</td>
+
+            </tr>
+        {% endfor %}
+        </ol>
+    </table>
+    </ol>
+{% else %}
+    <p>No Students are registered.</p>
+{% endif %}
+
+</br>
+
+    <a href="{% url 'omrSubmit' %}">SUBMIT OMR</a>
+
+
+
+    </br>
+    </br>
+
+<a href="{% url 'logout_page' %}">LOGOUT </a>
+</body>
+{% endblock %}

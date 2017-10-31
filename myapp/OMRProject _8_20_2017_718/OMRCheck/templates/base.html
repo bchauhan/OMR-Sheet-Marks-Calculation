@@ -1,0 +1,26 @@
+{% load static %}
+<html>
+    <head>
+        <style>
+    ol {
+    display: block;
+    list-style-type: decimal;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+}
+</style>
+        <title>Django Login Application |
+        {% block title %}{% endblock %}</title>
+    </head>
+    <body bgcolor="#E6E6FA"><font face="Georgia">
+       <div align="center"> <img src='{% static "logo.png" %}' alt="Mountain View" height="100" width="500"/>
+        <h1>{% block head %}
+        Welcome
+            {% endblock %}</h1>
+        {% block content %}{% endblock %}
+        </div></font>
+    </body>
+</html>
